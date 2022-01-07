@@ -8,7 +8,7 @@ Haciendo uso de **Javascript** se desarrolló un modulo de mensajes salientes, u
 * *fontawesome*
 * *jquery*
 
-obteniendo como resultado final la imagen que se muestra a continuación:
+Adicionalmente, se utilizó para el estilo **CSS**, obteniendo como resultado final la imagen que se muestra a continuación:
 
 ![resultado](https://user-images.githubusercontent.com/61333059/148494683-832f8a9d-3fd1-42b2-b69a-65e83fd4ead7.PNG)
 
