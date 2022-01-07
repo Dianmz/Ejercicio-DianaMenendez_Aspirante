@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ChatCartel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Importando estilos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <LINK REL=stylesheet HREF="styles.css" TYPE="text/css" MEDIA=screen>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-sp">
+        <div class="container">
+            <h4 class="h4">Mensajes Salientes</h4>
+        </div>
+        <div>
+            <button type="button" class="btn btn-light btn-circle">
+                <i class="fas fa-plus icon-color"></i>&nbsp;&nbsp;&nbsp;Nuevo Mensaje
+            </button>
+        </div>
+    </nav>
+    <!-- Fin header-->
+
+    <!-- Panel superior -->
+    <div class="container">
+        <div class="row ctn">
+            <div class="col col-lg-5">
+                <div class="row margin-row">
+                    <h6 class="h6">Enviados</h6>&nbsp;&nbsp;&nbsp;
+                    <div class="load-blue"> </div>&nbsp;&nbsp;&nbsp;
+                    <h6 class="h6">25</h6>
+               </div>
+               <div class="row margin-row">
+                    <h6 class="h6">Recibidos</h6>&nbsp;&nbsp;&nbsp;
+                    <div class="load-green"> </div>&nbsp;&nbsp;&nbsp;
+                    <h6 class="h6">25</h6>
+                </div>
+                <div class="row margin-row">
+                    <h6 class="h6">No Recibidos</h6>&nbsp;&nbsp;&nbsp;
+                    <div class="load-red"> </div>&nbsp;&nbsp;&nbsp;
+                    <h6 class="h6">0</h6>
+                </div>
+                <div class="row margin-row">
+                    <h6 class="h6">Respondidos</h6>&nbsp;&nbsp;&nbsp;
+                    <div class="load-yellow"> </div>&nbsp;&nbsp;&nbsp;
+                    <h6 class="h6">0</h6>
+                </div>
+            </div>
+            
+            <div class="col col-lg-7 margin-col">
+                <div class="row">
+                    <div class="col margin-col-first">
+                        <div class="row">
+                            <img class="icon" src="./icons/sent.svg"></img>
+                        </div> 
+                    </div>
+                    <div class="col margin-col">
+                        <div class="row">
+                            <img class="icon-2" src="./icons/received.svg"></img>
+                        </div>  
+                    </div>
+                    <div class="col margin-col">
+                        <div class="row">
+                            <img class="icon-2" src="./icons/not_received.svg"></img>
+                        </div>                          
+                    </div>
+                    <div class="col margin-col">
+                        <div class="row">
+                            <img class="icon-2" src="./icons/answered.svg"></img>
+                        </div>   
+                    </div>
+                </div>
+                <div class="row row-2">
+                    <div class="col margin-bar-first">
+                        <div class="height-blue"> </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <h6 class="h6">Mensajes enviados</h6>
+                        </div>  
+                        <div class="row">
+                            <h3 class="h3">25</h3>
+                        </div> 
+                         
+                    </div>
+                    <div class="col margin-bar-second">
+                        <div class="height-green"> </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <h6 class="h6">Mensajes recibidos</h6>
+                        </div>  
+                        <div class="row">
+                            <h3 class="h3">25</h3>
+                        </div> 
+                    </div>
+                    <div class="col margin-bar-third">
+                        <div class="height-red"> </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <h6 class="h6">Mensajes no recibidos</h6>
+                        </div>  
+                        <div class="row">
+                            <h3 class="h3">0</h3>
+                        </div> 
+                    </div>
+                    <div class="col margin-bar-fourth">
+                        <div class="height-yellow"> </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <h6 class="h6">Mensajes no recibidos</h6>
+                        </div>  
+                        <div class="row">
+                            <h3 class="h3">0</h3>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Fin panel superior  -->
+
+    <!-- Tabla -->
+    <div class="container cont-table">
+        <table class="table table-hover" id="table">
+            <thead>
+              <tr>
+                <th scope="col">Titulo</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Fecha de creación</th>
+                <th scope="col">Efectividad</th>
+              </tr>
+            </thead>
+            <tbody id="body">
+              <tr>
+                <td id="t1">Mensaje de Prueba</td>
+                <td>En revisión &nbsp;<i class="fas fa-clock"></i></td>
+                <td>15-07-2021 15:59</td>
+                <td>0%</td>
+              </tr>
+              <tr>
+                <td id="t2">Bienvenida</td>
+                <td>Verificado &nbsp;&nbsp; <img src="./icons/verified.svg"></img></td>
+                <td>01-07-2021 00:00</td>
+                <td>0%</td>
+              </tr>
+              <tr>
+                <td id="t3">Orden por llegar</td>
+                <td>Verificado &nbsp;&nbsp; <img src="./icons/verified.svg"></img></td>
+                <td>01-01-2021 00:00</td>
+                <td>0%</td>
+              </tr>
+              <tr>
+                <td id="t4">Pedidos</td>
+                <td>Verificado &nbsp;&nbsp; <img src="./icons/verified.svg"></img></td>
+                <td>01-01-2021 00:00</td>
+                <td>0%</td>
+              </tr>
+              <tr>
+                <td id="t5">Actualización de Seguimiento</td>
+                <td>Verificado &nbsp;&nbsp; <img src="./icons/verified.svg"></img></td>
+                <td>02-10-2021 07:00</td>
+                <td>0%</td>
+              </tr>
+            </tbody>
+          </table>
+
+    </div>
+    <!-- Fin Tabla -->
+
+    <!-- Paginacion -->
+    <nav aria-label="Page" class="pagination-desgin">
+        <ul class="pagination">
+          <li class="page-item"><button class="page-link" onclick="actualizar(0)">Inicio</button></li>
+          <li class="page-item"><button class="page-link" onclick="actualizar(1)">1</button></li>
+          <li class="page-item"><button class="page-link" onclick="actualizar(2)">2</button></li>
+          <li class="page-item"><button class="page-link" onclick="actualizar(3)">Último</button></li>
+        </ul>
+    </nav>
+    <!-- Fin paginacion-->
+
+</body>
+<script>
+
+    function actualizar(valor){
+        let t1=document.getElementById('t1');
+        let t2=document.getElementById('t2');
+        let t3=document.getElementById('t3');
+        let t4=document.getElementById('t4');
+        let t5=document.getElementById('t5');
+
+        if(valor==0){
+            t1.innerText="Mensaje de Prueba";
+            t2.innerText="Bienvenida";
+            t3.innerText="Orden por llegar";
+            t4.innerText="Pedidos";
+            t5.innerText="Actualización de Seguimiento";
+        }
+        else if(valor == 1){
+            t1.innerText="Mensaje de Prueba_pagina_1";
+            t2.innerText="Bienvenida_pagina_1";
+            t3.innerText="Orden por llegar_pagina_1";
+            t4.innerText="Pedidos_1";
+            t5.innerText="Actualización de Seguimiento_pagina_1";
+        }else if(valor == 2){
+            t1.innerText="Mensaje de Prueba_pagina_2";
+            t2.innerText="Bienvenida_pagina_2";
+            t3.innerText="Orden por llegar_pagina_2";
+            t4.innerText="Pedidos_pagina_2";
+            t5.innerText="Actualización de Seguimiento_pagina_2";
+        }else{
+            t1.innerText="Mensaje de Prueba_ultimo";
+            t2.innerText="Bienvenida_ultimo";
+            t3.innerText="Orden por llegar_ultimo";
+            t4.innerText="Pedidos_ultimo";
+            t5.innerText="Actualización de Seguimiento_ultimo";
+        }
+    }
+
+</script>
+</html>

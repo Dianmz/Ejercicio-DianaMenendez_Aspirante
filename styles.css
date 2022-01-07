@@ -1,0 +1,174 @@
+.nav-sp{
+    margin-top: 10px;
+}
+.btn-circle {
+    width: 165px;
+    height: 40px;
+    padding: 6px 0px;
+    border-radius: 25px;
+    font-size: 13px;
+    line-height: 1.42857;
+    text-align: center;
+    box-shadow: 0px 2px 5px #999;
+}
+
+.icon-color{                                             
+    color: #4BC1DA;
+    align-items: left;
+}
+
+.ctn{
+    margin-top: 25px;
+    margin-left: -6%;
+}
+
+.margin-row{
+    margin-left: 0%;
+    margin-top: 1%;
+    width: 450px;
+}
+
+.margin-col-first{
+    margin-left: -10%;
+    width: 150px;
+}
+
+.margin-bar-first{
+    margin-left: -150px;
+    margin-top: -25px;
+    max-width: 20px;
+}
+
+.margin-bar-second{
+    margin-left: -50px;
+    margin-top: -25px;
+    max-width: 20px;
+}
+
+.margin-bar-third{
+    margin-left: -25px;
+    margin-top: -25px;
+    max-width: 20px;
+}
+
+.margin-bar-fourth{
+    margin-left: 0px;
+    margin-top: -25px;
+    max-width: 20px;
+}
+
+.margin-left{
+    margin-left: -50%;
+    margin-top: 5%;
+}
+
+.load-blue{    
+    width: 30%;
+    height: 4px;
+    margin-left: 7%;
+    background: rgb(55, 160, 209) !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+    
+.load-green{    
+    width: 30%;
+    height: 4px;
+    margin-left: 6%;
+    background: rgb(34, 180, 15) !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.load-yellow{    
+    width: 30%;
+    height: 4px;
+    margin-left: 1.5%;
+    background: rgb(255, 195, 0) !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.load-red{    
+    width: 30%;
+    height: 4px;
+    margin-left: 1%;
+    background: rgb(243, 15, 15) !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+.height-blue{    
+    width: 4px;
+    height: 80px;
+    align-self: left;
+    margin-top: 20%;
+    background: rgb(55, 160, 209) !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.height-green{    
+    width: 4px;
+    height: 80px;
+    align-self: left;
+    margin-top: 20%;
+    background: rgb(34, 180, 15) !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.height-red{    
+    width: 4px;
+    height: 80px;
+    align-self: left;
+    margin-top: 20%;
+    background: rgb(243, 15, 15) !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.height-yellow{    
+    width: 4px;
+    height: 80px;
+    align-self: left;
+    margin-top: 20%;
+    background: rgba(255, 195, 0) !important;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.align-second{
+    margin-left: -5%;
+}
+
+.align-blue{
+    margin-left: 100%;
+}
+
+.icon{
+    width: 15%;
+    height: 15%;
+    margin-left: 0px;
+}
+
+.icon-2{
+    width: 15%;
+    height: 15%;
+    margin-left: 8px;
+}
+
+.row-2{
+    margin-top: 5%;
+}
+
+.cont-table{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.pagination-desgin{
+    margin-left: 40%;
+    margin-top: 0%;
+}
